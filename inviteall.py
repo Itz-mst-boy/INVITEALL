@@ -1,3 +1,4 @@
+Xd:
 import asyncio
 import os
 import sys
@@ -246,7 +247,7 @@ async def start_yukki():
     global raj
     global put
 
-    if smex:
+if smex:
         session_name = StringSession(str(smex))
         print("String 1 Found")
         idk = TelegramClient(
@@ -261,14 +262,14 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await idk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await idk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
+            await idk(functions.channels.JoinChannelRequest(channel="@Mukhushi_official"))
             await idk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 1 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 1 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 1 not Found")
         session_name = "startup"
@@ -292,15 +293,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@Mukhushi_official"))
             await ydk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 2 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 2 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 2 not Found")
         session_name = "startup"
@@ -325,15 +326,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 3")
             await wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@Mukhushi_official"))
             await wdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 3 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 3 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 3 not Found")
         session_name = "startup"
@@ -353,7 +354,8 @@ async def start_yukki():
 
     if smexxxx:
         session_name = StringSession(str(smexxxx))
-        print("String 4 Found")
+
+print("String 4 Found")
         hdk = TelegramClient(
             session=session_name,
             api_id=ca,
@@ -366,15 +368,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await hdk(functions.channels.JoinChannelRequest(channel=   @worldwide_friend_zone  ))
+            await hdk(functions.channels.JoinChannelRequest(channel="@Mukhushi_official"))
             await hdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 4 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 4 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 4 not Found")
         session_name = "startup"
@@ -407,15 +409,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@ᴀʟʟ ɪᴅ ɪs ᴊᴏɪɴᴇᴅ  ʙʏ @mukhushi_offficial"))
             await sdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 5 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 5 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 5 not Found")
         session_name = "startup"
@@ -448,16 +450,17 @@ async def start_yukki():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await adk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI "))
+            await adk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
+            await adk(functions.channels.JoinChannelRequest(channel="@Mukhushi_official "))
             await adk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 6 & Replace It. Join @LegendBot_OP For Any Help")
-    else:
+            print("Check String 6 & Replace It. Join @worldwide_friend_zone For Any Help")
+
+else:
         print("Session 6 not Found")
         session_name = "startup"
         adk = TelegramClient(
@@ -489,15 +492,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
+            await bdk(functions.channels.JoinChannelRequest(channel=@mukhushi_official))
             await bdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 7 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 7 & Replace It join @worldwide_friend_zoneFor Any Help")
     else:
         print("Session 7 not Found")
         session_name = "startup"
@@ -530,15 +533,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone))
+            await cdk(functions.channels.JoinChannelRequest(channel=@mukhushi_official"))
             await cdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 8 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 8 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 8 not Found")
         session_name = "startup"
@@ -563,15 +566,17 @@ async def start_yukki():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
-            await ddk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@Mukhushi_official"))
+
+await ddk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 9 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 9 & Replace It. Join @worldwide_friend_zone 
+For Any Help")
     else:
         print("Session 9 not Found")
         session_name = "startup"
@@ -596,15 +601,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await edk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await edk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
+            await edk(functions.channels.JoinChannelRequest(channel@worldwide_friend_zone"))
             await edk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 10 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 10 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 10 not Found")
         session_name = "startup"
@@ -629,15 +634,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@mukhushi_official"))
             await vkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 11 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 11 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 11 not Found")
         session_name = "startup"
@@ -661,15 +666,16 @@ async def start_yukki():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            await kkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await kkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@mukhushi_official))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+
+SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 12 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 12 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 12 not Found")
         session_name = "startup"
@@ -694,15 +700,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            await lkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@mukhushi_official"))
             await lkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 13 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 13  @worldwide_friend_zone")
     else:
         print("Session 13 not Found")
         session_name = "startup"
@@ -725,17 +731,17 @@ async def start_yukki():
         )
         # mkk = TelegramClient(StringSession(session_name), ma, mb)
         try:
-            print("Booting Up The Client 14")
+            print("Booting  Client 14")
             await mkk.start()
-            await mkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await mkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@mukhushi_official"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 14 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 14 & Replace It. Join @worldwide_friend_zone")
     else:
         print("Session 14 not Found")
         session_name = "startup"
@@ -760,15 +766,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            await sid(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await sid(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await sid(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await sid(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await sid(functions.channels.JoinChannelRequest(channel="@mukhushi_official"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 15 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 15 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 15 not Found")
         session_name = "startup"
@@ -778,7 +784,7 @@ async def start_yukki():
         except Exception:
             pass
 
-    if sieee:
+if sieee:
         session_name = StringSession(str(sieee))
         print("String 16 Found")
         shy = TelegramClient(
@@ -794,14 +800,14 @@ async def start_yukki():
             print("Booting Up The Client 16")
             await shy.start()
             botme = await shy.get_me()
-            await shy(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await shy(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await shy(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await shy(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await shy(functions.channels.JoinChannelRequest(channel="@mukhushi_official"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 16 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 16 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 16 not Found")
         session_name = "startup"
@@ -827,14 +833,14 @@ async def start_yukki():
             print("Booting Up The Client 17")
             await aan.start()
             botme = await aan.get_me()
-            await aan(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await aan(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await aan(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await aan(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await aan(functions.channels.JoinChannelRequest(channel="@mukhushi_official"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 17 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 17 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 17 not Found")
         session_name = "startup"
@@ -860,14 +866,14 @@ async def start_yukki():
             print("Booting Up The Client 18")
             await ake.start()
             botme = await ake.get_me()
-            await ake(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await ake(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await ake(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await ake(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await ake(functions.channels.JoinChannelRequest(channel="@mukhushi_official"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 18 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 18 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 18 not Found")
         session_name = "startup"
@@ -881,7 +887,8 @@ async def start_yukki():
         session_name = StringSession(str(nieee))
         print("String 19 Found")
         eel = TelegramClient(
-            session=session_name,
+
+session=session_name,
             api_id=ra,
             api_hash=rb,
             connection=ConnectionTcpAbridged,
@@ -893,14 +900,14 @@ async def start_yukki():
             print("Booting Up The Client 19")
             await eel.start()
             botme = await eel.get_me()
-            await eel(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await eel(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await eel(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await eel(functions.channels.JoinChannelRequest(channel="@LegendBot_AI "))
+            await eel(functions.channels.JoinChannelRequest(channel="@mukhushi_official "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 19 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 19 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 19 not Found")
         session_name = "startup"
@@ -926,14 +933,14 @@ async def start_yukki():
             print("Booting Up The Client 20")
             await khu.start()
             botme = await khu.get_me()
-            await khu(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await khu(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await khu(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await khu(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await khu(functions.channels.JoinChannelRequest(channel="@mukhushi_official"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 20 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 20 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 20 not Found")
         session_name = "startup"
@@ -959,14 +966,14 @@ async def start_yukki():
             print("Booting Up The Client 21")
             await shi.start()
             botme = await shi.get_me()
-            await shi(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await shi(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await shi(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await shi(functions.channels.JoinChannelRequest(channel="@LegendBot_AI "))
+            await shi(functions.channels.JoinChannelRequest(channel="@mukhushi_official "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 21 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 21 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 21 not Found")
         session_name = "startup"
@@ -984,7 +991,8 @@ async def start_yukki():
             api_id=ua,
             api_hash=ub,
             connection=ConnectionTcpAbridged,
-            auto_reconnect=True,
+
+auto_reconnect=True,
             connection_retries=None,
         )
         # yaa = TelegramClient(StringSession(session_name), ua, ub)
@@ -992,14 +1000,14 @@ async def start_yukki():
             print("Booting Up The Client 22")
             await yaa.start()
             botme = await yaa.get_me()
-            await yaa(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await yaa(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await yaa(functions.channels.JoinChannelRequest(channel="@LegendBot_AI "))
+            await yaa(functions.channels.JoinChannelRequest(channel="@mukhushi_official "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 22 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 22 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 22 not Found")
         session_name = "startup"
@@ -1025,14 +1033,14 @@ async def start_yukki():
             print("Booting Up The Client 23")
             await dav.start()
             botme = await dav.get_me()
-            await dav(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await dav(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await dav(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await dav(functions.channels.JoinChannelRequest(channel="@LegendBot_AI "))
+            await dav(functions.channels.JoinChannelRequest(channel="@mukhushi_official "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 23 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 23 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 23 not Found")
         session_name = "startup"
@@ -1058,14 +1066,14 @@ async def start_yukki():
             print("Booting Up The Client 24")
             await raj.start()
             botme = await raj.get_me()
-            await raj(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await raj(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await raj(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await raj(functions.channels.JoinChannelRequest(channel="@LegendBot_AI "))
+            await raj(functions.channels.JoinChannelRequest(channel="@mukhushi_official "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 24 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 24 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 24 not Found")
         session_name = "startup"
@@ -1087,18 +1095,19 @@ async def start_yukki():
             connection_retries=None,
         )
         # put = TelegramClient(StringSession(session_name), xa, xb)
-        try:
+
+try:
             print("Booting Up The Client 25")
             await put.start()
             botme = await put.get_me()
-            await put(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await put(functions.channels.JoinChannelRequest(channel="@worldwide_friend_zone"))
             await put(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await put(functions.channels.JoinChannelRequest(channel="@LegendBot_AI "))
+            await put(functions.channels.JoinChannelRequest(channel="@mukhushi_official "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 25 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 25 & Replace It. Join @worldwide_friend_zone For Any Help")
     else:
         print("Session 25 not Found")
         session_name = "startup"
@@ -1151,18 +1160,18 @@ async def get_chatinfo(event):
         try:
             chat_info = await event.client(GetFullChannelRequest(chat))
         except ChannelInvalidError:
-            await event.edit("`Invalid channel/group`")
+            await event.edit("Invalid channel/group")
             return None
         except ChannelPrivateError:
             await event.edit(
-                "`This is a private channel/group or I am banned from there`"
+                "This is a private channel/group or I am banned from there"
             )
             return None
         except ChannelPublicGroupNaError:
-            await event.reply("`Channel or supergroup doesn't exist`")
+            await event.reply("Channel or supergroup doesn't exist")
             return None
         except (TypeError, ValueError):
-            await event.reply("`Invalid channel/group`")
+            await event.reply("Invalid channel/group")
             return None
     return chat_info
 
@@ -1187,6 +1196,7 @@ async def get_chatinfo(event):
 @ake.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+
 @shi.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @yaa.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.join"))
@@ -1202,7 +1212,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝐉𝐎𝐢𝐍 𝐇𝐎𝐆𝐘𝐀 𝐕𝐀𝐈 AB BATA KISKO MARU PAHLE🔥")
+                await event.edit("ᴊᴏɪɴ ʜᴏ ɢʏᴀ ʙʀᴜʜ ᴀʙ ʙᴏʟ ᴋɪ ᴋᴀʀᴜ")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -1244,7 +1254,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("𝐉𝐎𝐢𝐍 𝐇𝐎𝐆𝐘𝐀 𝐕𝐀𝐈 𝐀𝐁 𝐁𝐓𝐀 𝐊𝐈𝐒𝐊𝐈 𝐌𝐀𝐑𝐔😏🔥")
+                await event.edit("ᴊᴏɪɴ ʜᴏ ɢʏᴀ ʙʀᴜʜ ᴀʙ ʙᴏʟ ᴋɪ ᴋᴀʀᴜ")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -1257,6 +1267,7 @@ async def _(e):
 @hdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
@@ -1326,11 +1337,12 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"PING PONG!\n`{ms}` 𝗺𝘀")
+        await event.edit(f"PING PONG!\n{ms} 𝗺𝘀")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
 @hdk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
 @sdk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
@@ -1433,7 +1445,6 @@ async def ping(e):
         await cdk.send_message(
             e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ =\nI am client 8"
         )
-
 
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
 async def ping(e):
@@ -1562,7 +1573,6 @@ async def ping(e):
             e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ =\nI am client 24"
         )
 
-
 @put.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
 async def ping(e):
     if e.sender_id in SMEX_USERS:
@@ -1585,13 +1595,13 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for x in event.client.iter_participants(
             legend.full_chat.id, aggressive=True
@@ -1600,13 +1610,13 @@ async def get_users(event):
                 await idk(InviteToChannelRequest(channel=chat, users=[x.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1625,26 +1635,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await ydk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1656,32 +1666,33 @@ async def get_users(event):
         if not sender.id == me.id:
             text = "Processing...."
             krishna = await event.reply(text, parse_mode=None, link_preview=None)
-        else:
+
+else:
             text = "Processing...."
             krishna = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await wdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1699,26 +1710,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await hdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1736,26 +1747,27 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await sdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+
+f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1773,26 +1785,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await adk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1810,26 +1822,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await bdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1840,33 +1852,34 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+
+krishna = await event.reply(text, parse_mode=None, link_preview=None)
         else:
             text = "Processing...."
             krishna = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await cdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1884,26 +1897,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await edk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1921,26 +1934,27 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await ddk(InviteToChannelRequest(channel=chat, users=[user.id]))
-                s = s + 1
+
+s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1958,26 +1972,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await vkk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -1995,26 +2009,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await kkk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2023,7 +2037,8 @@ async def get_users(event):
     if event.sender_id in SMEX_USERS:
         sender = await event.get_sender()
         me = await event.client.get_me()
-        if not sender.id == me.id:
+
+if not sender.id == me.id:
             text = "Processing...."
             krishna = await event.reply(text, parse_mode=None, link_preview=None)
         else:
@@ -2032,26 +2047,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await lkk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2069,26 +2084,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await mkk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2106,26 +2121,27 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
-            try:
+
+try:
                 await sid(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2143,26 +2159,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await shy(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2180,33 +2196,34 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await aan(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
 @ake.on(events.NewMessage(incoming=True, pattern=r"\*inviteall"))
 async def get_users(event):
     if event.sender_id in SMEX_USERS:
-        sender = await event.get_sender()
+
+sender = await event.get_sender()
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
@@ -2217,26 +2234,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await ake(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2254,26 +2271,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await eel(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2291,26 +2308,27 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
-        )
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
+
+)
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await khu(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2328,26 +2346,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await shi(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2365,30 +2383,31 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await yaa(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
 @dav.on(events.NewMessage(incoming=True, pattern=r"\÷inviteall"))
+
 async def get_users(event):
     if event.sender_id in SMEX_USERS:
         sender = await event.get_sender()
@@ -2402,26 +2421,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await dav(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2440,13 +2459,13 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for x in event.client.iter_participants(
             legend.full_chat.id, aggressive=True
@@ -2455,13 +2474,13 @@ async def get_users(event):
                 await raj(InviteToChannelRequest(channel=event.chat_id, users=[x.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2479,26 +2498,26 @@ async def get_users(event):
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await krishna.edit("Sorry, Cant add users here")
         s = 0
         f = 0
         error = "None"
 
-        await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+await krishna.edit(
+            "⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/worldwide_friend_zone)\n\n🔸Inviting Users......."
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await put(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await krishna.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"🤟Inviting Users👇 \n\n⚜Invited :  {s} users \n🔰Failed to Invite :  {f} users.\n\n×Error :  {error}"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/worldwide_friend_zone) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ {s} ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє {f} ρєορℓє"
         )
 
 
@@ -2576,18 +2595,19 @@ async def restart(e):
 
 
 text = """
-CONGRATS 🥳🥳🥳 & SAY THANKS TO LEGENDBOY (LegendBoy_XD)
+ᴄᴏɴɢʀᴀᴛs  sᴀʏ ᴛʜᴀɴᴋs ᴛᴏ ᴍᴜᴋᴇsʜ (@itz_mst_boy)
 """
 
 print(text)
 print("")
-print("🙏🔥🔥 BOT STARTED SUCCESFULLY.🔥🔥🙏")
+print("🙏🔥🔥 ʙᴏᴛ sᴛᴀʀᴛᴇᴅ  sᴜᴄᴄᴇsғᴜʟʟʏ  ᴠɪsɪᴛ @mastermind_network_official.🔥🔥🙏")
 
 
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
-    except Exception:
+
+except Exception:
         pass
     try:
         ydk.disconnect()
