@@ -1,6 +1,6 @@
 # INVITEALL
 <p>
-<h2> This Is INVITEALL Of <a href="https://telegram.me/LegendBot_XD">@LegendBoy_XD</a></h2>
+<h2> This Is INVITEALL Of <a href="https://telegram.me/itz_mst_boy">@itz_mst_boy</a></h2>
 </p>
 
 ------
