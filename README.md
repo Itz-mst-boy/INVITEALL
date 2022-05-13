@@ -25,7 +25,7 @@
 
 - `.leave <Group/Channel link/username>` - To Leave That Group/Channel
 
-- `.inviteall <handler><inviteall> <group username/link>` - Adds Members From The Mentioned Group To Your Group. If You Don't Know About Handler, Then Refer [Here](https://github.com/LEGEND-AI/INVITEALL/#-command-handler-)
+- `.inviteall <handler><inviteall> <group username/link>` - Adds Members From The Mentioned Group To Your Group.)
 
 - `.limit` - To Check The Limitations Of All The IDs Through SpamBot
 
