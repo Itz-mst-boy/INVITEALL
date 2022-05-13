@@ -1,0 +1,407 @@
+{
+  "name": "Inviteall",
+  "description": "Accha H LegendBoy.",
+  "logo": "",
+    "env": {
+      "STRING": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": true
+      },
+      "STRING2": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING3": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING4": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING5": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING6": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING7": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING8": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING9": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING10": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING11": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING12": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING13": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING14": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING15": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING16": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING17": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING18": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING19": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING20": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING21": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING22": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING23": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING24": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING25": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "API_ID": {
+        "description": "Api Id",
+        "value": "",
+        "required": true
+      },
+      "API_ID2": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID3": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID4": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID5": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID6": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID7": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID8": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID9": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID10": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID11": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID12": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID13": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID14": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID15": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID16": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID17": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID18": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID19": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID20": {
+        "description": "Api Id",
+        "value": "",
+        "required": false
+      },
+      "API_ID21": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID22": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID23": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID24": {
+        "description": "Api Id",
+        "value": "",
+        "required": false 
+      },
+      "API_ID25": {
+        "description": "Api Id",
+        "value": "",
+        "required": false
+      },
+      "API_H": {
+        "description": "Api Hash",
+        "value": "",
+        "required": true
+      },
+      "API_H2": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H3": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H4": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H5": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H6": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H7": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H8": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H9": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H10": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H11": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H12": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H13": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H14": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H15": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false 
+      },
+      "API_H16": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H17": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H18": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H19": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H20": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H21": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H22": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H23": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H24": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "API_H25": {
+        "description": "Api Hash",
+        "value": "",
+        "required": false
+      },
+      "GROUP_USERNAME": {
+        "description": "WRITE UR GROUP USERNAME. Id Will Automatically Add to that Group",
+        "value": "@LB_OffTopic",
+        "required": true
+      },      
+      "SUDO": {
+        "description": "Sudo Users Id",
+        "value": "",
+        "required": true
+      }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}

@@ -1,0 +1,6 @@
+telethon
+python-dotenv
+asyncio
+TgCrypto
+pyrogram
+asyncio
