@@ -2,7 +2,7 @@
 <p>
 <h2> This Is INVITEALL Of <a href="https://telegram.me/itz_mst_boy">@itz_mst_boy</a></h2>
 </p>
-
+​<img src="https://telegra.ph/file/7fa9017265d3d6f51d191.jpg"> ika he
 ------
 # Dєρℓογ το нєяοκυ
 
